@@ -1,0 +1,33 @@
+
+.allfish {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 75%;
+    justify-content: space-between;
+    
+    margin: 2rem;
+    
+}
+
+
+
+.fish {
+    text-align: center;
+}
+
+.fish_photo {
+    height: 10rem;
+    width: 12rem;
+    padding: 0.5rem;
+}
+.fishname {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0.5rem;
+    justify-content: center;
+}
+
+.fish_list{
+    background-color: darkseagreen;
+}
+

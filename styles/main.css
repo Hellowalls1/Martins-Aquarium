@@ -1,3 +1,27 @@
-#fishtank {}
-.fish {}
-.fish_name {}
+@import 'nav.css';
+@import 'fish.css';
+@import 'tips.css';
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+.body {
+    background-image: url(/images/waterbackgroundfortips.jpg);
+    background-size: 200%;
+}
+.bordered{
+
+    border: 5px solid black
+}
+
+
+#button--reginald {
+    text-align: center;
+}
