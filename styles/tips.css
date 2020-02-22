@@ -1,22 +1,36 @@
 
 .fish_tips{
+    
     flex-basis: 25%
-   
+    
 }
 
 
 .tips_list{
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     font-weight: bold;
     padding: 0 0.5rem 0 0.5rem;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 2rem 0 0 0;
     font-family: 'Sedgwick Ave Display' ;
+    font-size: 20px;
 
 }
 
-
+li {
+    padding: 1rem 0 1rem 0;
+   
+}
 .tips_title {
+ 
     text-align: center;
     font-family: 'Sedgwick Ave Display' ;
     
+}
+
+.tank_photo{
+    max-width: 100%;
+    height: auto;
+    padding: 2rem 0 2rem 0;
 }
