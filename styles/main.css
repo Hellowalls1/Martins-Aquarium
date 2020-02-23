@@ -17,11 +17,12 @@
     background-size: 200%;
 }
 .bordered{
-
-    border: 5px solid black
+    border-style: outset;
+    border: 10px solid rgb(3, 57, 65)
 }
 
 
 #button--reginald {
+    margin: 2px;
     text-align: center;
 }
