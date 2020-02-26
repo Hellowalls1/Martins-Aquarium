@@ -5,4 +5,6 @@ initializeDetailButtonEvents()
 
 const arrayOfTheFishObjects = useFish()
 
-for ()
+for (const currentFishObject of arrayOfTheFishObjects) {
+    console.log(currentFishObject)
+}
