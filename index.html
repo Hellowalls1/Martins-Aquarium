@@ -4,99 +4,127 @@
 <head>
     <meta charset="utf-8">
     <title>Nashville Software School</title>
-    <link rel="stylesheet" href="martin.css">
-
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="body">
+  <h1 class="sitetitle">Martin's Aquarium</h1>
     <header>
-        <nav class="navigation bordered">
-            <a class="navigation__link" href="index.html">Martin's Aquarium</a>
-            <a class="navigation__link" href="locations.html">Harvesting Locations</a>
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">Le Poisson</a>
+            <a class="navigation__link" href="location.html">Harvesting Locations</a>
         </nav>
     </header>
-    <aside class="fish_tips"> </aside>
+    
 
     <main class="container">
-        <article class="allfish bordered">
-            <section class="fish">
+ 
+
+        <article class="allfish">
+            <section class="fish bordered">
                  
                     <img class="fish_photo" src="images/orange-and-white-fish-886210.jpg">
+                   
                     <div class="fishname">Reginald</div>
                 
-                    <div class="fish_list bordered">
-                      <ul>
-                    <li>Species: Goldfish</li>
-                    <li>Length: 6cm</li>
-                    <li>Eats: Flakes</li>
-                    <li>Harvested: Hawaii</li>
-                      </ul>
-                     <div>
-                     </section>
+                    <div>
+                      <button class="fishbutton" id="button--reginald">Details</button>
+                    </div>
+                
+                  <dialog class="dialog--fish" id="details--reginald">
+                  <div>Species: Orange Clownfish</div>
+                  <div>Location: Caribbean</div>
+                  <div>Length: 3</div>
+                  <div>Food: Algae, crustaceans</div>
 
-            <section class="fish">
-                        <img class="fish_photo" src="images/orange-and-white-fish-886210.jpg">
-                        <div class="fishname">Geraldine</div>
-                        <div class="fish_list bordered">
-                          <ul>
-                        <li>Species: Goldfish</li>
-                        <li>Length: 6cm</li>
-                        <li>Eats: Flakes</li>
-                        <li>Harvested: Hawaii</li>
-                          </ul>
-                        <div>
+        <button class="button--close" id="close-reginald">Close Dialog</button>
+                  </dialog>
             </section>
-            <section class="fish">
+
+            <section class="fish bordered">
+                      <img class="fish_photo" src="images/newfish.webp">
+                      <div class="fishname">Geraldine</div>
+                      <div>
+                        <button class="fishbutton" id="button--Geraldine">Details</button>
+                      </div>
+                    
+                  <dialog class="dialog--fish" id="details--Geraldine">
+                  <div>Species: Orange Clownfish</div>
+                  <div>Location: Caribbean</div>
+                  <div>Length: 3</div>
+                  <div>Food: Algae, crustaceans</div>
+              
+        <button class="button--close" id="close-Geraldine">Close Dialog</button>
+                  </dialog>
+            </section>
+            <section class="fish bordered">
                            
-                            <img class="fish_photo" src="images/orange-and-white-fish-886210.jpg">
-                            <div class="fishname">Francois</div>
-                            <div class="fish_list bordered">
-                              <ul>
-                            <li>Species: Goldfish</li>
-                            <li>Length: 6cm</li>
-                            <li>Eats: Flakes</li>
-                            <li>Harvested: Hawaii</li>
-                              </ul>
-                            <div>
-                            </section>
-            <section class="fish">
+                      <img class="fish_photo" src="images/newfish2.jpg">
+                      <div class="fishname">Francois</div>
+                      <div>
+                        <button class= "fishbutton" id="button--Francois">Details</button>
+                      </div>
+                        
+                  <dialog class="dialog--fish" id="details--Francois">
+                  <div>Species: Orange Clownfish</div>
+                  <div>Location: Caribbean</div>
+                  <div>Length: 3</div>
+                  <div>Food: Algae, crustaceans</div>
+              
+        <button class="button--close" id="close-Francois">Close Dialog</button>
+                  </dialog>
+              </section>
+            <section class="fish bordered">
                                 
-                                <img class="fish_photo" src="images/orange-and-white-fish-886210.jpg">
+                                <img class="fish_photo" src="images/newfish2.jpg">
                                 <div class="fishname">Jose</div>
-                                <div class="fish_list bordered">
-                                  <ul>
-                                <li>Species: Goldfish</li>
-                                <li>Length: 6cm</li>
-                                <li>Eats: Flakes</li>
-                                <li>Harvested: Hawaii</li>
-                                  </ul>
                                 <div>
+                                  <button class="fishbutton" id="button--Jose">Details</button>
+                              </div>
+                            
+              <dialog class="dialog--fish" id="details--Jose">
+                <div>Species: Orange Clownfish</div>
+                <div>Location: Caribbean</div>
+                <div>Length: 3</div>
+                <div>Food: Algae, crustaceans</div>
+            
+                <button class="button--close" id="close-Jose">Close Dialog</button>
+            </dialog>
             </section>
-            <section class="fish">
+            <section class="fish bordered">
                  
                 <img class="fish_photo" src="images/orange-and-white-fish-886210.jpg">
                 <div class="fishname">Emmanuel</div>
-                <div class="fish_list bordered">
-                  <ul>
-                <li>Species: Goldfish</li>
-                <li>Length: 6cm</li>
-                <li>Eats: Flakes</li>
-                <li>Harvested: Hawaii</li>
-                  </ul>
-                 <div>
+                <div>
+                  <button class="fishbutton" id="button--Emmanuel">Details</button>
+              </div>
+            
+<dialog class="dialog--fish" id="details--Emmanuel">
+<div>Species: Orange Clownfish</div>
+<div>Location: Caribbean</div>
+<div>Length: 3</div>
+<div>Food: Algae, crustaceans</div>
+
+<button class="button--close" id="close-Emmanuel">Close Dialog</button>
+</dialog>
                  </section>
-                 <section class="fish">
+                 <section class="fish bordered">
                  
-                    <img class="fish_photo" src="images/orange-and-white-fish-886210.jpg">
+                    <img class="fish_photo" src="images/newfish.webp">
                     <div class="fishname">Sally</div>
-                    <div class="fish_list bordered">
-                      <ul>
-                    <li>Species: Goldfish</li>
-                    <li>Length: 6cm</li>
-                    <li>Eats: Flakes</li>
-                    <li>Harvested: Hawaii</li>
-                      </ul>
-                     <div>
+                    <div>
+                      <button class="fishbutton" id="button--Sally">Details</button>
+                  </div>
+                
+  <dialog class="dialog--fish" id="details--Sally">
+    <div>Species: Orange Clownfish</div>
+    <div>Location: Caribbean</div>
+    <div>Length: 3</div>
+    <div>Food: Algae, crustaceans</div>
+
+    <button class="button--close" id="close-Sally">Close Dialog</button>
+</dialog>
                      </section>
 
  </article>
@@ -107,6 +135,7 @@
                 <li>The tank must be cleaned on a regular basis. Your fish create waste that can be toxix. It may cause health problems and in extreme circustances death.</li>
                 <li>Make sure you remember to check the salinity of water in the tanks, and don't forget to feed them!</li>
             </ul>
+            <img class="tank_photo" src="images/fishtank.jpg">
 
 
 
