@@ -1,53 +1,61 @@
 const fishCollection = [
 {
     name: "Reginald",
-    species: "goldfish",
-    length: "6 cm",
-    harvested: "Hawaii",
-    eats: ["Flakes"]
+    Species: "goldfish",
+    Length: "6 cm",
+    Location: "Hawaii",
+    Food: ["Flakes"],
+    image: "images/newfish.webp"
 },
 {
     name: "Geraldine",
-    species: "shark",
-    length: "1 ft",
-    harvested: "Florida",
-    eats: ["legs", "fish"]
+    Species: "shark",
+    Length: "1 ft",
+    Location: "Florida",
+    Food: ["legs", "fish"],
+    image: "images/newfish.webp"
 },
 {
     name: "Francois",
-    species: "blue gill",
-    length: "8 cm",
-    harvested: "Apartment Complex",
-    eats: ["worms"]
+    Species: "blue gill",
+    Length: "8 cm",
+    Location: "Apartment Complex",
+    Food: ["worms"],
+    image: "images/newfish.webp"
 },
 
 {
     name: "Jose",
-    species: "Catfish",
-    length: "1 ft",
-    harvested: "Cumberland River",
-    eats: ["flies"]
+    Species: "Catfish",
+    Length: "1 ft",
+    Location: "Cumberland River",
+    Food: ["flies"],
+    image: "images/newfish.webp"
 },
 
 {
     name: "Emmanuel",
-    species: "Blue Whale",
-    length: "32 ft",
-    harvested: "Pacific Ocean",
-    eats: ["krill"]
+    Species: "Blue Whale",
+    Length: "32 ft",
+    Location: "Pacific Ocean",
+    Food: ["krill"],
+    image: "images/newfish.webp"
 },
 
 {
     name: "Sally",
-    species: "Sting Ray",
-    length: "2 ft",
-    harvested: "Atlantic Ocean",
-    eats: ["weird stuff"]
+    Species: "Sting Ray",
+    Length: "2 ft",
+    Location: "Atlantic Ocean",
+    Food: ["weird stuff"],
+    image: "images/newfish.webp"
 },
 
 
 ]
 
 export const useFish = () => {
-    return fishCollection
+    return fishCollection.slice()
+
+
 }
