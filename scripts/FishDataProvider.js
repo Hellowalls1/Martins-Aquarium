@@ -4,7 +4,7 @@ const fishCollection = [
     Species: "goldfish",
     Length: "6 cm",
     Location: "Hawaii",
-    Food: ["Flakes"],
+    Food: ["Flakes", "Hats"],
     image: "images/newfish.webp"
 },
 {
