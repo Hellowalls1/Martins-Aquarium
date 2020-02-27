@@ -9,7 +9,7 @@ const initializeDetailButtonEvents = () => {
                 const dialogElement = theEvent.target.parentNode
                 dialogElement.close()
             }
-        )
+        ) 
     }
     // CAN'T TOUCH THIS - END
 
