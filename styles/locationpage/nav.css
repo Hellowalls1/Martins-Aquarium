@@ -1,0 +1,38 @@
+.sitetitle{
+    text-align: center;
+    font-family: 'Sedgwick Ave Display' ;
+    font-size: 500%;
+}
+
+.header {
+    background-image: url(/images/waterbackgroundfortips.jpg);
+}
+
+.navigation {
+    text-align: center;
+    margin: 3rem;
+    font-size: 35px;
+    font-weight: italic;
+
+    
+}
+
+.navigation__link {
+    padding: 0 1em 0 1em;
+    font-family: 'Sedgwick Ave Display' ;
+    font-size: 100%;
+}
+
+.locationbutton{
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: turquoise;
+    margin: 0 0 2rem 0;
+}
+
+a:active {
+    color: black;
+}
+a:visited {
+    color: black
+}
