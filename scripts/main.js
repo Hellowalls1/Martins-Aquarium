@@ -5,7 +5,6 @@
 import FishList from './fish/FishList.js'
 
 
-
 import TipList from './tips/TipList.js'
 
 // const allTheFish = useFish()
@@ -22,9 +21,10 @@ import TipList from './tips/TipList.js'
 // for (const currentFishObject of arrayOfTheFishObjects) {
 //     console.log(currentFishObject)
 // }
-// initializeDetailButtonEvents()
 
 
 
 FishList()
 TipList()
+
+// initializeDetailButtonEvents()
