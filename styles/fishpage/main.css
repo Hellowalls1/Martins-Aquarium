@@ -1,6 +1,6 @@
-@import 'nav.css';
-@import 'fish.css';
-@import 'tips.css';
+@import '/styles/fishpage/nav.css';
+@import '/styles/fishpage/fish.css';
+@import '/styles/fishpage/tips.css';
 
 
 
@@ -21,8 +21,9 @@
     border: 10px solid rgb(3, 57, 65)
 }
 
-
+/* 
 #button--reginald {
     margin: 2px;
     text-align: center;
-}
+} */
+

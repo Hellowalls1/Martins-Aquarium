@@ -1,5 +1,5 @@
 
-.allfish {
+.alllocations {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 75%;
@@ -11,25 +11,25 @@
 
 
 
-.fish {
+.location {
     text-align: center;
     margin: 3rem;
 }
 
-.fish_photo {
+.location__photo {
     height: 10rem;
     width: 12rem;
     padding: 0.5rem;
     margin: 2rem 0 0rem 0;
 }
-.fishname {
+.location__name {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0.5rem;
     justify-content: center;
 }
 
-.fish_list{
+/* .fish_list{
     background-color: darkseagreen;
 }
-
+ */

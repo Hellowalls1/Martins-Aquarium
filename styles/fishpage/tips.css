@@ -1,8 +1,8 @@
 
 .fish_tips{
     
-    flex-basis: 25%
-    
+    flex-basis: 25%;
+  
 }
 
 
@@ -15,6 +15,7 @@
     margin: 2rem 0 0 0;
     font-family: 'Sedgwick Ave Display' ;
     font-size: 20px;
+  
 
 }
 
@@ -31,6 +32,6 @@ li {
 
 .tank_photo{
     max-width: 100%;
-    height: auto;
+   : auto;
     padding: 2rem 0 2rem 0;
 }
