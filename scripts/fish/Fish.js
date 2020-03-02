@@ -9,13 +9,13 @@ const Fish = (fish) => {
                 <img class="fish__image" src="${fish.image}" alt="">
             </div>
             <div class="fish__name">${fish.name}</div>
-            <button class= fishButton id="button--${fish.name}">Details</button>
+            <button class="fishButton" id="button--${fish.name}">Details</button>
 
             <dialog class="dialog--fish" id="details--${fish.name}">
                 <div>Species: ${fish.species}</div>
                 <div>Location: ${fish.location}</div>
                 <div>Length: ${fish.size}</div>
-                <div>Food: ${fish.Food.join(",")}</div>
+                <div>Food: ${fish.food.join(",")}</div>
 
                 <button class="button--close">Close Dialog</button>
             </dialog>

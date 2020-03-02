@@ -1,53 +1,53 @@
 const fishCollection = [
 {
     name: "Reginald",
-    Species: "goldfish",
-    Length: "6 cm",
-    Location: "Hawaii",
-    Food: ["Flakes", "Hats"],
+    species: "goldfish",
+    size: "6 cm",
+    location: "Hawaii",
+    food: ["Flakes", "Hats"],
     image: "images/newfish.webp"
 },
 {
     name: "Geraldine",
-    Species: "shark",
-    Length: "1 ft",
-    Location: "Florida",
-    Food: ["legs", "fish"],
+    species: "shark",
+    size: "1 ft",
+    location: "Florida",
+    food: ["legs", "fish"],
     image: "images/newfish.webp"
 },
 {
     name: "Francois",
-    Species: "blue gill",
-    Length: "8 cm",
-    Location: "Apartment Complex",
-    Food: ["worms"],
+    species: "blue gill",
+    size: "8 cm",
+    location: "Apartment Complex",
+    food: ["worms"],
     image: "images/newfish.webp"
 },
 
 {
     name: "Jose",
-    Species: "Catfish",
-    Length: "1 ft",
-    Location: "Cumberland River",
-    Food: ["flies"],
+    species: "Catfish",
+    size: "1 ft",
+    location: "Cumberland River",
+    food: ["flies"],
     image: "images/newfish.webp"
 },
 
 {
     name: "Emmanuel",
-    Species: "Blue Whale",
-    Length: "32 ft",
-    Location: "Pacific Ocean",
-    Food: ["krill"],
+    species: "Blue Whale",
+    size: "32 ft",
+    location: "Pacific Ocean",
+    food: ["krill"],
     image: "images/newfish.webp"
 },
 
 {
     name: "Sally",
-    Species: "Sting Ray",
-    Length: "2 ft",
-    Location: "Atlantic Ocean",
-    Food: ["weird stuff"],
+    species: "Sting Ray",
+    size: "2 ft",
+    location: "Atlantic Ocean",
+    food: ["weird stuff"],
     image: "images/newfish.webp"
 },
 
