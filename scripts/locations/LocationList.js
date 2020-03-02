@@ -1,6 +1,6 @@
-import { useLocation } from "./LocationDataProvider";
+import { useLocation } from "./LocationDataProvider.js"
 
-import Location from "./Location.js";
+import Location from "./Location.js"
 
 
 const LocationList = () => {
@@ -18,7 +18,7 @@ const LocationList = () => {
         // Add a section, and all of the fish to the DOM
     }
 
-    export default LocationList
+export default LocationList
 
 
 
